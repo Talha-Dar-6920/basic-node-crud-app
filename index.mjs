@@ -46,6 +46,7 @@ app.post('/user', (req, res) => {
       name: req.body.name,
       email: req.body.email,
       address: req.body.address,
+      contact: req.body.contact,
     });
     res.status(200).send('User Created.');
   }
